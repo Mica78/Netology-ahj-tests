@@ -1,0 +1,42 @@
+.cards {
+  margin: 5px 0;
+  height: 20px;
+  display: block;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.card {
+  width: 25px;
+  height: 15px;
+  border: 1px solid rgb(99, 94, 94);
+  border-radius: 10%;
+  margin-right: 1px;
+  filter:grayscale();
+  opacity: 40%;
+}
+
+.active_card {
+  filter:none;
+  opacity: 100%;
+}
+
+.cards li {
+  float: left;
+}
+
+.btn {
+  background-color: rgb(101, 150, 101);
+  color: white;
+  border: none;
+  height: 20px;
+  border: rgb(101, 150, 101);
+}
+
+.check {
+  margin-top: 20px;
+  width: 50px;
+}
